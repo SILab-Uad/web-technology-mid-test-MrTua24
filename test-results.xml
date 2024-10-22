@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.056" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-10-22T03:35:48" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Password Generator Tests" timestamp="2024-10-22T03:35:48" tests="6" file="C:\Teknologi web\tekweb_2024_2300016026\tekweb_2024_2300016026\web-technology-mid-test-MrTua24\test\test.js" time="0.046" failures="1">
+    <testcase name="Password Generator Tests should generate a password of the specified length" time="0.013" classname="should generate a password of the specified length">
+    </testcase>
+    <testcase name="Password Generator Tests should contain uppercase letters if selected" time="0.001" classname="should contain uppercase letters if selected">
+    </testcase>
+    <testcase name="Password Generator Tests should contain lowercase letters if selected" time="0.001" classname="should contain lowercase letters if selected">
+    </testcase>
+    <testcase name="Password Generator Tests should contain numbers if selected" time="0.000" classname="should contain numbers if selected">
+    </testcase>
+    <testcase name="Password Generator Tests should contain special characters if selected" time="0.000" classname="should contain special characters if selected">
+    </testcase>
+    <testcase name="Password Generator Tests should throw an error if no character type is selected" time="0.002" classname="should throw an error if no character type is selected">
+      <failure message="expected [Function] to throw an error" type="AssertionError"><![CDATA[AssertionError: expected [Function] to throw an error
+    at Context.<anonymous> (file:///C:/Teknologi%20web/tekweb_2024_2300016026/tekweb_2024_2300016026/web-technology-mid-test-MrTua24/test/test.js:76:21)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual:  failed to generate Mocha diff
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
